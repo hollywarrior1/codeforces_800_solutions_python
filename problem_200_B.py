@@ -1,0 +1,5 @@
+n = int(input())
+ar = list(map(int, input().split(' ')))
+ar = list(map(lambda x: x/100, ar))
+ans = sum(ar)
+print(ans*100/n)
